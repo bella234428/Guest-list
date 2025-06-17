@@ -1,0 +1,42 @@
+.Box{
+   width: 100%; 
+   min-height: 100lvh;
+   background-color: purple;
+   padding: 10px;
+}
+.bag{
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 17px 50px;
+    background: palevioletred;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.app{
+    border: none;
+    outline: none;
+    padding: 17px 50px;
+    background: palevioletred;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
