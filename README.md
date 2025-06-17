@@ -1,8 +1,5 @@
-Sure! Here's how you could rephrase the project details for an event guest list manager:
-
----
-
 # *EVENT GUEST LIST MANAGER*
+
 
 ## *Description*
 
