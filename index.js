@@ -1,6 +1,6 @@
 const guestName = document.getElementById("guest-names");
 const guestList = document.getElementById("guest-list");
-const maxGuests = 10;
+ const maxGuests = 10;
 
 function addGuest() {
     if (guestList.children.length >= maxGuests) {
