@@ -1,13 +1,20 @@
 const guestName = document.getElementById("guest-names");
 const guestList = document.getElementById("guest-list");
+const maxGuests = 10;
 
-function addTask(){
-    if(guestName.value === ''){
-        alert("You must right something!");
+function addGuest() {
+    if (guestList.children.length >= maxGuests) {
+        alert("Guest limit reached (10)");
+        return;
     }
-     else{
-        let li = document.createElement("li");
-        li.innerHTML = guestName.value;
-        guestList.appendChild(li);
-     }
+
+    if (guestName.value.trim() === '') {
+        alert("Please enter a guest name.");
+        return;
+    }
+
+    const li = document.createElement("li");
+    li.textContent = guestName.value.trim();
+    guestList.appendChild(li);
+    guestName.value = ''; // Clear the input field
 }
